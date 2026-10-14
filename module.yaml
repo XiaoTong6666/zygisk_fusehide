@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/KernelSU-Modules/tools/main/schemas/module.schema.json
+schemaVersion: 1
+id: zygisk_fusehide
+name: Zygisk - FuseHide
+summary: Hide /sdcard paths per-UID in MediaProvider using Zygisk.
+description: README.md
+license: Apache-2.0
+homepage: https://github.com/XiaoTong6666/FuseHide
+support: https://github.com/XiaoTong6666/FuseHide/issues
+tags: [android, root, storage, zygisk, fusehide]
+authors:
+  - name: XiaoTong
+    url: https://github.com/XiaoTong6666
+compatibility:
+  androidMinApi: 31
+release:
+  assetPattern: "*-release.zip"
